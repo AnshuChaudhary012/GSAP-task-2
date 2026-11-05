@@ -253,14 +253,14 @@ const Home = () => {
               <img
                 className="backdrop-shadow"
                 src="/src/assets/images/png/controller-3.png"
-                alt=""
+                alt="controller"
               />
             </div>
             <div className="card card-four w-80 h-125 bg-transparent absolute flex justify-center items-center translate-y-[-50%] top-[-20%] left-[-20%]">
               <img
                 className="backdrop-shadow"
                 src="/src/assets/images/png/controller-4.png"
-                alt=""
+                alt="controler"
               />
             </div>
           </div>
