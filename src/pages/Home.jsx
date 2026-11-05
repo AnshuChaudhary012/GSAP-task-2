@@ -1,6 +1,10 @@
 import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import controllerOne from "../assets/images/png/controller-1.png";
+import controllerTwo from "../assets/images/png/controller-2.png";
+import controllerThree from "../assets/images/png/controller-3.png";
+import controllerFour from "../assets/images/png/controller-4.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -238,28 +242,28 @@ const Home = () => {
             <div className="card card-one w-80 h-125 z-50 bg-transparent flex justify-center items-center">
               <img
                 className="backdrop-shadow"
-                src="/src/assets/images/png/controller-1.png"
+                src={controllerOne}
                 alt="controller"
               />
             </div>
             <div className="card card-two w-80 h-125 z-40 bg-transparent flex justify-center items-center">
               <img
                 className="backdrop-shadow"
-                src="/src/assets/images/png/controller-2.png"
+                src={controllerTwo}
                 alt="controller"
               />
             </div>
             <div className="card card-three w-80 h-125 bg-transparent flex justify-center items-center">
               <img
                 className="backdrop-shadow"
-                src="/src/assets/images/png/controller-3.png"
+                src={controllerThree}
                 alt="controller"
               />
             </div>
             <div className="card card-four w-80 h-125 bg-transparent absolute flex justify-center items-center translate-y-[-50%] top-[-20%] left-[-20%]">
               <img
                 className="backdrop-shadow"
-                src="/src/assets/images/png/controller-4.png"
+                src={controllerFour}
                 alt="controler"
               />
             </div>
