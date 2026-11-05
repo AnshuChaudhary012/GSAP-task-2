@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useRef } from "react";
+import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -19,8 +19,7 @@ const Home = () => {
         },
       });
 
-      // ================================First animation================================
-
+      
       tl.fromTo(
         ".card-one",
         {
@@ -53,8 +52,6 @@ const Home = () => {
         },
         "start-one"
       );
-
-      // ================================Second animation================================
 
       tl.to(
         ".card-one",
@@ -168,7 +165,6 @@ const Home = () => {
         "start-three"
       );
 
-      // ================================Fourth animation================================
 
       tl.to(
         ".card-three",
@@ -269,7 +265,7 @@ const Home = () => {
             </div>
           </div>
           <div>
-            {/* basic controller  */}
+           
             <div className="absolute controller-one top-[110%] right-0 w-125 transform -translate-x-1/2">
               <h1 className="text-6xl uppercase font-sohne mb-2">
                 DualShock 4
